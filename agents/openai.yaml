@@ -1,0 +1,13 @@
+interface:
+  display_name: 实景延伸线稿旅行海报
+  short_description: 保留旅行照片质感，让景物自然延伸为线稿与小人故事，生成简洁竖版海报
+  default_prompt: 使用 $extend-photo-travel-poster，将上传照片制作成3:4实景延伸线稿旅行海报。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

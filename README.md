@@ -14,6 +14,18 @@
 - 内置五张布局与笔触参考图，避免风格漂移
 - 默认输出 3:4 竖版，可按用户要求调整
 
+## 案例
+
+| 森林草甸 | 松间亭阁 |
+| --- | --- |
+| ![森林草甸：木栈道延伸与微型漫步者](examples/forest-meadow.png) | ![松间亭阁：松枝延伸与静坐人物](examples/pine-pavilion.png) |
+
+| 云雾亭阁 | 龙沙风车 |
+| --- | --- |
+| ![云雾亭阁：山脊石径延伸与攀登者](examples/misty-pavilion.png) | ![龙沙风车：叶片格架延伸与攀爬人物](examples/longsha-windmill.png) |
+
+案例图用于展示 Skill 的目标输出；仓库不包含生成它们时使用的原始照片。
+
 ## 安装
 
 ```bash
@@ -37,6 +49,11 @@ extend-photo-travel-poster/
 ├── assets/
 │   ├── icon.svg
 │   └── style-reference-01.jpeg ... style-reference-05.jpeg
+├── examples/
+│   ├── forest-meadow.png
+│   ├── longsha-windmill.png
+│   ├── misty-pavilion.png
+│   └── pine-pavilion.png
 └── references/
     ├── prompt-template.md
     ├── scene-guide.md
